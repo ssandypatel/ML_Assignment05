@@ -19,5 +19,5 @@
 
 
 ## Question 05 : What can you conclude from the MLP model performance?
-### Answer: In comparison to VGG models, the user-defined MLP model of a comparable number of parameters performs better in terms of training accuracy, but it performs similar in terms of testing accuracy. As evidenced by the testing accuracy, this shows that while a larger MLP model can fit the training data in a better way, it may not necessarily generalise well to unseen data. This emphasises how model architecture, rather than just the quantity of parameters, is crucial for determining model performance.
+### Answer: In comparison to VGG models, the user-defined MLP model of a comparable number of parameters performs better in terms of training accuracy, but it performs similar in terms of testing accuracy. As evidenced by the testing accuracy, this shows that while a larger MLP model can fit the training data in a better way, it may not necessarily generalise well to unseen data. This emphasises how model architecture, rather than just the quantity of parameters, is crucial for determining model performance. Also, the training and test accuracies are getting saturated when we increase the no. of epochs.
 
