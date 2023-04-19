@@ -1,7 +1,7 @@
 # Machine Learning Assignment 05 <br>
-
+![Table](results/table.png) <br>
 ##   Question 01.  Are the results as expected? Why or why not?
-### Answer: In comparison to the VGG model with only one block, the results demonstrate that the VGG model with three blocks (both without and with data augmentation) has a higher training accuracy and a marginally better testing accuracy. This is expected since more complicated features in the data can be captured by deeper models. However, because deeper models need to perform better computation, the training time for VGG models with more blocks is also much longer. High training accuracy and testing accuracy are achieved by the transfer learning model, which is to be expected given that transfer learning uses pre-trained models to take advantage on their learnt characteristics.<br>
+### Answer: In comparison to the VGG model with only one block, the results demonstrate that the VGG model with three blocks (both without and with data augmentation) has a lesser training accuracy and a marginally better testing accuracy. It may not be expected since more complicated features in the data can be captured by deeper models. The possible reason behing it may be that very simple model (VGG-1 block) might get biased towards a particular class. However, because deeper models need to perform better computation, the training time for VGG models with more blocks is also much longer. High training accuracy and testing accuracy are achieved by the transfer learning model, which is to be expected given that transfer learning uses pre-trained models to take advantage on their learnt characteristics.<br>
 
 
 ##  Question 02. Does data augmentation help? Why or why not?
